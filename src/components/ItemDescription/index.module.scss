@@ -1,0 +1,82 @@
+.root {
+  background-color: white;
+  width: 100%;
+  border-bottom: 1px solid #ededed;
+  padding: 16px;
+}
+
+.form {
+  display: flex;
+  flex-flow: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 5px;
+
+  .clearIcon {
+    color: var(--gray-400);
+    cursor: pointer;
+  }
+}
+
+.container {
+  display: flex;
+  height: 50px;
+  flex-flow: nowrap;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 0;
+
+  .text {
+    font-size: 13px;
+    font-weight: 500;
+    margin-inline: 5px;
+    width: 90%;
+  }
+
+  .icon {
+    &[data-icon="circle-check"] {
+      color: var(--secondary-green);
+      background-color: #279e7015;
+    }
+
+    &[data-icon="circle-xmark"] {
+      color: var(--primary);
+      background-color: #d7192015;
+    }
+
+    &[data-icon="xmark"] {
+      color: var(--gray-400);
+    }
+  }
+}
+
+.chevron {
+  color: var(--gray-400);
+}
+
+.collapse {
+  margin-top: 10px;
+}
+
+.itemDescriptionContainer{
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  flex: 1;
+  gap: 16px;
+}
+
+.itemPrice{
+  font-size: 1.3rem;
+}
+
+
+.itemUbicacion{
+  font-size: 14px;
+}
+
+

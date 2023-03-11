@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> Should render default without crash 1`] = `
+<DocumentFragment>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root root MuiAppBar-colorInherit MuiAppBar-positionStatic css-1cjrmu8-MuiPaper-root-MuiAppBar-root"
+  >
+    <div
+      class="MuiToolbar-root toolbar MuiToolbar-gutters MuiToolbar-regular css-hyum1k-MuiToolbar-root"
+    >
+      <div
+        class="main"
+      >
+        <div
+          class="containerImage"
+        >
+          <img
+            alt="logo"
+            class="logo"
+            height="64"
+            src="https://http2.mlstatic.com/frontend-assets/ml-web-navigation/ui-navigation/5.22.5/mercadolibre/logo__large_plus.png"
+            width="192"
+          />
+        </div>
+      </div>
+      <div
+        class="MuiGrid-root inputContainer css-vj1n65-MuiGrid-root"
+      >
+        <div
+          class="MuiInputBase-root MuiInputBase-colorPrimary inputItem css-1le28he-MuiInputBase-root"
+        >
+          <input
+            class="MuiInputBase-input css-yz9k0d-MuiInputBase-input"
+            placeholder="Nunca dejes de buscar"
+            type="text"
+            value=""
+          />
+        </div>
+        <button
+          aria-label="search"
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium inputIcon css-1gtpq4r-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="svg-inline--fa fa-magnifying-glass "
+            data-icon="magnifying-glass"
+            data-prefix="far"
+            focusable="false"
+            role="img"
+            viewBox="0 0 512 512"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M368 208A160 160 0 1 0 48 208a160 160 0 1 0 320 0zM337.1 371.1C301.7 399.2 256.8 416 208 416C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208c0 48.8-16.8 93.7-44.9 129.1L505 471c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L337.1 371.1z"
+              fill="currentColor"
+            />
+          </svg>
+          <span
+            class="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </button>
+      </div>
+    </div>
+  </header>
+</DocumentFragment>
+`;
